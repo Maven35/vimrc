@@ -20,4 +20,4 @@ se ruler
 se nu
 "for sniping
 se cuc
-su cul
+se cul
