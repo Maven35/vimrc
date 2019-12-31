@@ -1,21 +1,23 @@
 "set tab as 4 spaces 
-set tabstop=4
+se tabstop=4
 "search highlighting
-set hlsearch
+se hlsearch
 "ignore case
-set ignorecase
+se ignorecase
 "show partial matches
-set incsearch
+se incsearch
 "allow backspace over indents, line breaks and insertion starts 
-set backspace=indent,eol,start
+se backspace=indent,eol,start
 "enable mouse scrolling
-set mouse=a
-"disable beeps
-set noerrorbells
+se mouse=r
+"dsable beeps
+se noerrorbells
 "highlight cursor
-set cursorline
+se cursorline
 "show cursor position on line
-set ruler
+se ruler
 "show line numbers 
-set number
-
+se nu
+"for sniping
+se cuc
+su cul
