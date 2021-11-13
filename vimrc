@@ -1,5 +1,5 @@
 "set tab as 4 spaces 
-se tabstop=4
+se ts=2
 "search highlighting
 se hlsearch
 "ignore case
@@ -21,3 +21,6 @@ se nu
 "for sniping
 se cuc
 se cul
+se expandtab
+"yaml editing"
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
